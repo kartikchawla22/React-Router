@@ -63,10 +63,10 @@ const Weather = (params) => {
                 <div className="weather-content" >
                     <div className="weather-info">
                         <div className="weather-data">
-                            <span>Weather: {weatherData?.weather[0].main}</span>
-                            <span>Real Feel: {weatherData?.main?.feels_like}°C</span>
-                            <span>Humidity: {weatherData?.main?.humidity}</span>
-                            <span>Preassure: {weatherData?.main.pressure}</span>
+                            <span>Weather:<span className="value"> {weatherData?.weather[0].main}</span></span>
+                            <span>Real Feel:<span className="value">{weatherData?.main?.feels_like}°C</span></span>
+                            <span>Humidity:<span className="value">{weatherData?.main?.humidity}</span></span>
+                            <span>Preassure:<span className="value">{weatherData?.main.pressure}</span></span>
                         </div>
                         <img src={`https://openweathermap.org/img/wn/${weatherData?.weather[0].icon}@2x.png`} alt="weahter" />
                     </div>

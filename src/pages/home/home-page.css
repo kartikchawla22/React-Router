@@ -32,6 +32,7 @@
     .home-container>div,
     img {
         margin: 10px;
+        text-align: center;
     }
 
     .profile-picture {

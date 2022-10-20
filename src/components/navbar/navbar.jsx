@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from "react-router-dom";
 import './navbar.css';
-import { Container, AppBar, Toolbar, Typography, Box, IconButton, MenuItem, Menu, Button, Tooltip, Avatar } from "@mui/material"
+import { Container, AppBar, Toolbar, Typography, Box, IconButton, MenuItem, Menu, Button } from "@mui/material"
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
-    const pages = [{ name: "Home", route: "/" }, { name: "Tools", route: "/tools" }, { name: "Calculator", route: "/calculator" }, { name: "Weather", route: "/weather" }];
+    const pages = [{ name: "Home", route: "/" }, { name: "News", route: "/news" }, { name: "Calculator", route: "/calculator" }, { name: "Weather", route: "/weather" }];
     const [anchorElNav, setAnchorElNav] = useState(null);
 
     const handleOpenNavMenu = (event) => {
