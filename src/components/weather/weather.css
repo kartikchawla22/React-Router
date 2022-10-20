@@ -1,0 +1,19 @@
+.weather-slider {
+    color: #1976d2 !important;
+    min-width: 200px;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-info {
+    align-items: center;
+    display: flex;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+}

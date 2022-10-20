@@ -1,0 +1,41 @@
+.home-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    max-width: 25%;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.details>.key {
+    opacity: 0.8;
+}
+
+.details>.value {}
+
+@media only screen and (max-width: 786px) {
+    .home-container {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .home-container>div,
+    img {
+        margin: 10px;
+    }
+
+    .profile-picture {
+        max-width: 80%;
+    }
+
+}
