@@ -3,10 +3,8 @@ import profileImage from '../../Assets/images/Kartik_Chawla_original.jpg';
 
 
 function HomePage() {
-    console.log("here")
     return (
         <div className="home-container">
-
             <img className="profile-picture" src={profileImage} alt="Profile Image" />
             <div className="details-container">
                 <div className="details">

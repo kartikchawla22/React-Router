@@ -33,7 +33,6 @@ const Weather = (params) => {
 
     useEffect(() => {
         if (weatherData) {
-            console.log(weatherData);
             setMarks([
                 {
                     value: weatherData.main.temp_min,

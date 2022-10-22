@@ -11,7 +11,6 @@ const NewsFeed = (params) => {
         (async () => {
             setIsloading(true)
             const newsData = await axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=a058eb099f404d14a491583b0afaa01c");
-            console.log(newsData.data);
             setNewsData(newsData.data)
             setIsloading(false)
         })();

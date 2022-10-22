@@ -16,7 +16,6 @@ function Navbar() {
         setAnchorElNav(null);
     };
 
-    console.log('check');
     return (
         <AppBar position="static">
             <Container maxWidth="xl">
